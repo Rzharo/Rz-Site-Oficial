@@ -149,6 +149,11 @@ ul .nav-link:hover::after{
     .mobile-menu .login-button button {
         width: 100%;
     }
+
+    .mobilebox{
+        width: 250px;
+        height: 190px;
+    }
     .open {
         display: block;
     }
