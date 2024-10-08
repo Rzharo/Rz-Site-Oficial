@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Fredoka", system-ui, sans-serif;
+}
+
+body 
+{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.322));
+    box-shadow: 0px 3px 10px #464646;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.rzyinyang {
+    width: 50px;
+}
+
+.rzicon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+ul .nav-link::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+ul .nav-link:hover::after{
+    width: 100%;
+
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+#spec {
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.zzk {
+    justify-content: center;
+    width: 375px;
+    height: 225px;
+    border-radius: 5%;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 817px) {
+    .zzk {
+        justify-content: center;
+        width: 188px;
+        height: 113px;
+        border-radius: 5%;
+        border: 1px solid #fff;
+    }
+
+    body 
+{
+    background-image: url(../img/fundomobile.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .rzicon {
+        display: none;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    
+}
+
+
+.zzk {
+    margin: 15px;
+}
+
+.zzk {
+    
+    align-items: center;
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+    animation: fade 400ms ease-in-out forwards;
+}
+
+#zoom {
+    overflow: hidden;
+}
+
+#zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+#zoom:hover img {
+    -moz-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
