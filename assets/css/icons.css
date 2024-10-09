@@ -173,23 +173,12 @@ ul .nav-link:hover::after{
     }
     .zzk {
         justify-content: center;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         border-radius: 10%;
         border: 1px solid #ffffff;
     }
 }
-
-@media screen and (max-width: 1000px) {
-    .zzk {
-        justify-content: center;
-        width: 80px;
-        height: 80px;
-        border-radius: 10%;
-        border: 1px solid #ffffff;
-    }
-}
-
 
 
 .zzk {
