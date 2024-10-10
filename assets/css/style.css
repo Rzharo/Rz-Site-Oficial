@@ -149,11 +149,6 @@ ul .nav-link:hover::after{
     .mobile-menu .login-button button {
         width: 100%;
     }
-
-    .mobilebox{
-        width: 250px;
-        height: 190px;
-    }
     .open {
         display: block;
     }
@@ -163,33 +158,17 @@ ul .nav-link:hover::after{
     background-image: url(../img/fundomobile.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-
-    .card button{
-        top: 120%;
-        left: 1%;
-        height: 50px;
-        padding: 4px;
-        width: 100%;
-        font-size: 30px;
-    }
-
-    .card2 button{
-        top: 145%;
-        left: 1%;
-        height: 50px;
-        padding: 4px;
-        width: 100%;
-        font-size: 30px;
-    }
-
-    .nav-item, .box, .nav-bar:{
-        visibility: hidden;
-      }
+    background-size: cover; 
     
 }
+.nav-item, .box, .nav-bar:{
+    visibility: hidden;
+  }
 
-
+  .box{
+    width: 10px;
+    height: 320px;
+  }
 }
 
 .box {
@@ -265,6 +244,8 @@ ul .nav-link:hover::after{
   }
 
   .card2 button {
+    padding: 10;
+    margin: 10;
     align-items: center;
     position: absolute;
     top: 125%;
