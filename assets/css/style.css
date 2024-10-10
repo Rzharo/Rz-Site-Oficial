@@ -165,10 +165,7 @@ ul .nav-link:hover::after{
     visibility: hidden;
   }
 
-  .box{
-    width: 10px;
-    height: 320px;
-  }
+  
 }
 
 .box {
@@ -177,7 +174,7 @@ ul .nav-link:hover::after{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 400px;
+    width: 220px;
     padding: 0;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -193,6 +190,7 @@ ul .nav-link:hover::after{
     color: #fff;
     text-align: center;
     font-family: "Macondo", cursive;
+    font-size: 15px;
 }
 
 .box h1 {
@@ -200,7 +198,7 @@ ul .nav-link:hover::after{
     padding: 0;
     color: #fff;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     font-style: italic;
@@ -213,7 +211,7 @@ ul .nav-link:hover::after{
     padding: 30px;
     color: #e2e2e2;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     font-family: "Macondo Swash Caps", cursive;
     font-weight: 400;
     font-style: normal;
