@@ -88,9 +88,9 @@ ul .nav-link:hover::after{
 .login-button button {
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
-    background: linear-gradient(135deg, rgba(54, 54, 54, 0.322), rgba(0, 0, 0, 0.322));
-    box-shadow: 0px 3px 10px #46464667;
+    border-radius: 100px;
+    background: linear-gradient(135deg, rgba(41, 40, 40, 0.479), rgb(0, 0, 0));
+    border: 3px solid #ffffff17;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -168,6 +168,16 @@ ul .nav-link:hover::after{
   
 }
 
+.boxacima {
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 220px;
+    padding: 0;
+}
+
 .box {
     align-items: center;
     position: absolute;
@@ -180,89 +190,32 @@ ul .nav-link:hover::after{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 200px;
     border: 3px solid #ffffff17;
 }
 
-.box h3 {
-    margin: 0 0  8px;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-family: "Macondo", cursive;
-    font-size: 15px;
-}
-
 .box h1 {
-    margin: 0 0  30px;
+    align-items: center;
+    margin: 0 0 5px;
     padding: 0;
     color: #fff;
     text-align: center;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
     font-weight: 400;
     font-style: italic;
     font-weight: 400;
     font-style: normal;
 }
 
-.box h2 {
-    margin:  0  30px;
-    padding: 30px;
-    color: #e2e2e2;
+.boxacima h2 {
+    align-items: center;
+    margin: 0 0 0px;
+    padding: 0;
+    color: #d8d8d8;
     text-align: center;
-    font-size: 10px;
-    font-family: "Macondo Swash Caps", cursive;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
     font-weight: 400;
     font-style: normal;
 }
-
-.card button {
-    align-items: center;
-    position: absolute;
-    top: 110%;
-    left: 25%;
-    background: linear-gradient(135deg, rgba(60, 255, 0, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: 1px solid #aaeca75b;
-    height: 30px;
-    padding: 4px;
-    width: 50%;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-  }
-  .card button:hover {
-    background: linear-gradient(135deg, rgb(0, 255, 0), rgba(0, 255, 13, 0));
-    cursor: pointer;
-  }
-
-  .card2 button {
-    padding: 10;
-    margin: 10;
-    align-items: center;
-    position: absolute;
-    top: 125%;
-    left: 25%;
-    background: linear-gradient(135deg, rgba(54, 91, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: 1px solid #a7b9ec5b;
-    height: 30px;
-    padding: 4px;
-    width: 50%;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-  }
-  .card2 button:hover {
-    background: linear-gradient(135deg, rgb(0, 60, 255), rgba(0, 255, 13, 0));
-    cursor: pointer;
-  }
