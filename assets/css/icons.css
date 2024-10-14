@@ -184,6 +184,7 @@ ul .nav-link:hover::after{
         border: 1px solid #ffffff;
         flex-wrap: wrap-reverse;
         column-width: auto;
+        margin: 10px;
     }
     .zzk{
         margin: 50px;
@@ -196,7 +197,7 @@ ul .nav-link:hover::after{
 
 
 .zzk {
-    margin: 15px;
+    margin: 10px;
 }
 
 .zzk {
