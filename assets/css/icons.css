@@ -184,13 +184,13 @@ ul .nav-link:hover::after{
         border: 1px solid #ffffff;
         flex-wrap: wrap-reverse;
     }
-    .zzk {
+    .zzk{
         margin: 50px;
     }
 
     #dov {
-        margin: 50px;
-        }
+        margin: 0px;
+    }
 }
 
 
