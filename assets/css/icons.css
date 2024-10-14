@@ -127,6 +127,10 @@ ul .nav-link:hover::after{
 
 @media screen and (max-width: 930px) {
 
+    #dov img {
+        margin: 3px;
+    }
+
     body 
 {
     background-image: url(../img/fundomobile.png);
