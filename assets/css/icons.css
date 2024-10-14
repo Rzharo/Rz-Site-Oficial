@@ -178,8 +178,8 @@ ul .nav-link:hover::after{
     }
     .zzk {
         justify-content: space-between;
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
         border-radius: 10%;
         border: 1px solid #ffffff;
         flex-wrap: wrap-reverse;
