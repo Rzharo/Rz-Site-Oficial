@@ -183,6 +183,7 @@ ul .nav-link:hover::after{
         border-radius: 10%;
         border: 1px solid #ffffff;
         flex-wrap: wrap-reverse;
+        column-width: auto;
     }
     .zzk{
         margin: 50px;
