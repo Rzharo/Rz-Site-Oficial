@@ -187,8 +187,8 @@ ul .nav-link:hover::after{
     }
     .zzk {
         justify-content: space-between;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border-radius: 10%;
         border: 1px solid #ffffff;
         flex-wrap: wrap;
