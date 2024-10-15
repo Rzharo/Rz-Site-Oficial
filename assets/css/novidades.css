@@ -35,6 +35,7 @@ body
     height: 355px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
+    flex-wrap: wrap;
   }
   .card img {
     width: 100%;

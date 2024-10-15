@@ -200,6 +200,7 @@ ul .nav-link:hover::after{
     display: flex;
     justify-content: center;
     animation: fade 400ms ease-in-out forwards;
+    flex-wrap: wrap;
 }
 
 #zoom {

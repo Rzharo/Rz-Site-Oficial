@@ -122,6 +122,7 @@ ul .nav-link:hover::after{
     height: 225px;
     border-radius: 5%;
     border: 1px solid #fff;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 817px) {
@@ -203,6 +204,7 @@ ul .nav-link:hover::after{
     display: flex;
     justify-content: center;
     animation: fade 400ms ease-in-out forwards;
+    flex-wrap: wrap;
 }
 
 #zoom {
