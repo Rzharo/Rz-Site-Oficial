@@ -112,7 +112,7 @@ ul .nav-link:hover::after{
 }
 
 #spec {
-    padding: 20px;
+    padding: 50px;
     margin-top: 150px;
 }
 
@@ -182,20 +182,13 @@ ul .nav-link:hover::after{
     }
     .zzk {
         justify-content: space-between;
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
         border-radius: 10%;
         border: 1px solid #ffffff;
         flex-wrap: wrap-reverse;
         column-width: auto;
         margin: 10px;
-    }
-    .zzk{
-        margin: 50px;
-    }
-
-    #dov {
-        margin: 0px;
     }
 }
 
@@ -213,6 +206,7 @@ ul .nav-link:hover::after{
     display: flex;
     justify-content: center;
     animation: fade 400ms ease-in-out forwards;
+    flex-wrap: wrap;
 }
 
 #zoom {
