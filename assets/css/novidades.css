@@ -189,6 +189,10 @@ ul .nav-link:hover::after{
 
 @media screen and (max-width: 817px) {
 
+    header {
+        margin-left: -50px;
+    }
+
     body 
 {
     background-image: url(../img/fundomobile.png);
