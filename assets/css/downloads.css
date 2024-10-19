@@ -197,6 +197,10 @@ ul .nav-link:hover::after{
     background-size: cover;
     
 }
+    body
+{
+    margin-top: 165px;
+}
     .nav-bar {
         padding: 1.5rem 4rem;
     }
