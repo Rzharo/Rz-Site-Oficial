@@ -271,7 +271,7 @@ ul .nav-link:hover::after{
         height: 50%;
       }
       .card h1 {
-        font-size: 1.2rem;
+        font-size: .6rem;
       }
       .card h2 {
         font-size: .9rem;
