@@ -282,7 +282,7 @@ ul .nav-link:hover::after{
         height: 30px;
         border: none;
         padding: 4px;
-        width: 120%;
+        width: 100%;
         color: #fff;
         font-size: 1rem;
         font-weight: bold;
